@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="FreshTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/project_theme</item>
+    </style>
+
+    <style name="emptyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">#ff0</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_fragment2_baseadapterId"
+        android:src="@drawable/shishi"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="ggg"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView_fragment2_baseadapter1Id"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gg"
+        android:layout_gravity="bottom"
+        android:textColor="#f00"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView_fragment2_baseadapter2Id"
+        />
+
+</FrameLayout>
